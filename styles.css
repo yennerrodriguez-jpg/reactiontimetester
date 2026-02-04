@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: none;
+}
+
+button.hidden {
+    display: none;
+}
+
+button.visible {
+    display: block;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#reactionTime {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #555;
+}
